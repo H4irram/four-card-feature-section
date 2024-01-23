@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Four card feature section</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/output.css" />
+  </head>
+  <body
+    class="bg-veryLightGray font-poppins flex min-h-screen items-center justify-center"
+  >
+    <main>
+      <section class="h-full max-w-[1160px]">
+        <div class="container flex flex-col items-center gap-12 p-8">
+          <div class="max-w-[300px] space-y-6 text-center">
+            <h1 class="text-grayishBlue text-2xl font-extralight">
+              Reliable, efficient delivery <br />
+              <span class="text-veryDarkBlue font-semibold"
+                >Powered by Technology</span
+              >
+            </h1>
+            <p>
+              Our Artificial Intelligence powered tools use millions of project
+              data points to ensure that your project is successful
+            </p>
+          </div>
+          <div class="grid grid-cols-1 place-items-center gap-6 md:grid-cols-3">
+            <article
+              class="border-cyan space-y-10 rounded-md border-t-2 bg-[#fff] p-6 shadow-xl"
+            >
+              <div class="flex flex-col gap-2">
+                <h2>Supervisor</h2>
+                <p>Monitors activity to identify project roadblocks</p>
+              </div>
+              <div class="mt-4 flex justify-end">
+                <img
+                  class="h-12 w-12"
+                  src="./images/icon-supervisor.svg"
+                  alt=""
+                />
+              </div>
+            </article>
+            <article class="grid grid-cols-1 gap-6">
+              <div
+                class="border-red space-y-10 rounded-md border-t-2 bg-[#fff] p-6 shadow-xl"
+              >
+                <div class="flex flex-col gap-2">
+                  <h2>Team Builder</h2>
+                  <p>
+                    Scans our talent network to create the optimal team for your
+                    project
+                  </p>
+                </div>
+                <div class="flex justify-end">
+                  <img
+                    class="h-12 w-12"
+                    src="./images/icon-team-builder.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div
+                class="border-y-orange space-y-10 rounded-md border-t-2 bg-[#fff] p-6 shadow-xl"
+              >
+                <div class="flex flex-col gap-2">
+                  <h2>Karma</h2>
+                  <p>Regularly evaluates our talent to ensure quality</p>
+                </div>
+                <div class="flex justify-end">
+                  <img class="h-12 w-12" src="./images/icon-karma.svg" alt="" />
+                </div>
+              </div>
+            </article>
+            <article
+              class="border-blue space-y-10 rounded-md border-t-2 bg-[#fff] p-6 shadow-xl"
+            >
+              <div class="flex flex-col gap-2">
+                <h2>Calculator</h2>
+                <p>
+                  Uses data from past projects to provide better delivery
+                  estimates
+                </p>
+              </div>
+              <div class="flex justify-end">
+                <img
+                  class="h-12 w-12"
+                  src="./images/icon-calculator.svg"
+                  alt=""
+                />
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

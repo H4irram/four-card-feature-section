@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h2 {
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+    font-size: 1.4rem;
+  }
+  p {
+    font-size: 15px;
+    color: hsl(229, 6%, 66%);
+    font-weight: 400;
+  }
+}
